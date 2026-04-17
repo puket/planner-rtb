@@ -1,6 +1,6 @@
 <?php
 
-echo"planner.rotibit.com"; exit;
+//echo"planner.rotibit.com"; exit;
 
 /**
  * CodeIgniter
