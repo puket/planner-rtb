@@ -5,7 +5,7 @@
         
       </div>
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="<?php echo base_url('dashboard');?>" title="PLANNNER">PLANNNER</a>
+        <a class="blog-header-logo text-dark" href="<?php echo base_url('dashboard');?>" title="PLANNER">PLANNER</a>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
         <?php /* <a class="text-muted" href="#">
