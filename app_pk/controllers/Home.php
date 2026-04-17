@@ -40,7 +40,7 @@ class Home extends CI_Controller {
 	{
 		$data = array(
 					  'header'	=> $this->load->view('header', $this->data_header, TRUE),
-					  'content'  => $this->load->view('dashboard', $this->data_inner, TRUE),
+					  'content'  => $this->load->view('home', $this->data_inner, TRUE),
 					  'footer'	=> $this->load->view('footer', $this->data_footer,TRUE)
 					);
 
