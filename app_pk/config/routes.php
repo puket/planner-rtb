@@ -50,23 +50,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 
-/* short url redirect to affiliate*/
-$route['promo/(:any)'] = "home/redirect_promo/$1";
-$route['links/(:any)'] = "home/links/$1";
-$route['link/(:any)'] = "home/link/$1";
-$route['redirect/(:any)'] = "home/goto/$1";
-$route['goout'] = "home/gotoout";
-$route['dashb'] = "dashboard/index";
-
-
-$route['login'] = "auth/login";
+$route['auth'] = "auth/index";
 $route['logout'] = "auth/logout";
 
-$route['products'] = "home/prods";
-
-
 /*************************/
-/* Setting */
+/* Setting dashboard*/
 /*************************/
 $route['default_controller'] = 'home';
 $route['404_override'] = 'myerr404';
