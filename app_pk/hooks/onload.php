@@ -77,7 +77,7 @@ class onload
 				exit;
 			}
 		}		
-*/
+		*/
 	}
 
 }
