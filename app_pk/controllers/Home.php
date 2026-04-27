@@ -4,6 +4,9 @@ date_default_timezone_set("Asia/Bangkok");
 //ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
 
 class Home extends CI_Controller {
+	var $data_header = '';
+	var $data_inner = '';
+	var $data_footer = '';
 	
 	/**
 	 * Index Page for this controller.
